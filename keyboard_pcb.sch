@@ -166,4 +166,6 @@ Text GLabel 7600 4400 3    50   Input ~ 0
 SDA
 Text GLabel 7700 4400 3    50   Input ~ 0
 3V3
+Text GLabel 4500 3600 0    50   Input ~ 0
+GND
 $EndSCHEMATC
