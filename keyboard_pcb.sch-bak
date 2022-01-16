@@ -147,23 +147,4 @@ Text GLabel 6700 4600 2    50   Input ~ 0
 COL21
 Text GLabel 6700 4700 2    50   Input ~ 0
 COL20
-$Comp
-L Connector:Conn_01x04_Female J4
-U 1 1 61E417AE
-P 9400 2100
-F 0 "J4" V 9338 1812 50  0000 R CNN
-F 1 "Conn_01x04_Female" V 9247 1812 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9400 2100 50  0001 C CNN
-F 3 "~" H 9400 2100 50  0001 C CNN
-	1    9400 2100
-	0    -1   -1   0   
-$EndComp
-Text GLabel 9300 2300 3    50   Input ~ 0
-GND
-Text GLabel 9400 2300 3    50   Input ~ 0
-SCL
-Text GLabel 9500 2300 3    50   Input ~ 0
-SDA
-Text GLabel 9600 2300 3    50   Input ~ 0
-3V3
 $EndSCHEMATC

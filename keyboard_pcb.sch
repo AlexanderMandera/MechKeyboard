@@ -26,21 +26,21 @@ D-
 $Comp
 L Connector:Conn_01x04_Female J1
 U 1 1 61DA0AF6
-P 7750 2100
-F 0 "J1" V 7688 1812 50  0000 R CNN
-F 1 "Conn_01x04_Female" V 7597 1812 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7750 2100 50  0001 C CNN
-F 3 "~" H 7750 2100 50  0001 C CNN
-	1    7750 2100
+P 7550 2250
+F 0 "J1" V 7488 1962 50  0000 R CNN
+F 1 "USB" V 7397 1962 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7550 2250 50  0001 C CNN
+F 3 "~" H 7550 2250 50  0001 C CNN
+	1    7550 2250
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7650 2300 3    50   Input ~ 0
+Text GLabel 7450 2450 3    50   Input ~ 0
 GND
-Text GLabel 7750 2300 3    50   Input ~ 0
+Text GLabel 7550 2450 3    50   Input ~ 0
 D+
-Text GLabel 7850 2300 3    50   Input ~ 0
+Text GLabel 7650 2450 3    50   Input ~ 0
 D-
-Text GLabel 7950 2300 3    50   Input ~ 0
+Text GLabel 7750 2450 3    50   Input ~ 0
 5V
 $Comp
 L Connector:Conn_01x02_Female J2
@@ -58,7 +58,7 @@ L Connector:Conn_01x03_Male J3
 U 1 1 61D8A0C8
 P 7750 3650
 F 0 "J3" H 7722 3582 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 7722 3673 50  0000 R CNN
+F 1 "Power" H 7722 3673 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7750 3650 50  0001 C CNN
 F 3 "~" H 7750 3650 50  0001 C CNN
 	1    7750 3650
@@ -147,4 +147,23 @@ Text GLabel 6700 4600 2    50   Input ~ 0
 COL21
 Text GLabel 6700 4700 2    50   Input ~ 0
 COL20
+$Comp
+L Connector:Conn_01x04_Female J4
+U 1 1 61E417AE
+P 7500 4200
+F 0 "J4" V 7438 3912 50  0000 R CNN
+F 1 "I2C" V 7347 3912 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7500 4200 50  0001 C CNN
+F 3 "~" H 7500 4200 50  0001 C CNN
+	1    7500 4200
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7400 4400 3    50   Input ~ 0
+GND
+Text GLabel 7500 4400 3    50   Input ~ 0
+SCL
+Text GLabel 7600 4400 3    50   Input ~ 0
+SDA
+Text GLabel 7700 4400 3    50   Input ~ 0
+3V3
 $EndSCHEMATC
