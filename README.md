@@ -2,6 +2,8 @@
 
 ### by Alexander Mandera
 
+Please refer to the KiCad files if you want up-to-date images.
+
 ## ToDo
 
 - Check if USB traces are alright
